@@ -47,7 +47,7 @@
     background-image: url('button-icons/light.png');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(78, 78, 78);
     border: none;
     padding: 0;
     border-radius: 20px;
@@ -70,7 +70,7 @@
     background-image: url('button-icons/dark.png');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 0;
     border-radius: 20px;
@@ -93,7 +93,7 @@
     background-image: url('button-icons/ambient.png');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 0;
     border-radius: 20px;
@@ -219,23 +219,25 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
+    display: flex;
     padding: 80px 0;
     background-color: var(--card-bg);
 }
 
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.about-text, .skills {
+.about-text {
     flex: 1 1 300px;
+    margin-top: 40px;
+    gap: 30px;
 }
 
 .about-text p {
     margin-bottom: 15px;
+}
+
+.skills {
+    flex: 1 1 300px;
+    margin-top: 40px;
+    gap: 30px;
 }
 
 .skills ul li {
