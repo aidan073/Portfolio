@@ -41,7 +41,7 @@
     --transition: all 0.3s ease;
 }
 
-/* light-theme button */
+/* Light-theme button */
 #theme-light {
     position: relative;
     background-image: url('button-icons/light.png');
@@ -59,8 +59,12 @@
     transition: var(--transition);
 }
 
+#theme-light:hover {
+    opacity: 0.9;
+}
 
-/* dark-theme button */
+
+/* Dark-theme button */
 #theme-dark {
     position: relative;
     background-image: url('button-icons/dark.png');
@@ -78,8 +82,12 @@
     transition: var(--transition);
 }
 
+#theme-dark:hover {
+    opacity: 0.9;
+}
 
-/* ambient-theme button */
+
+/* Ambient-theme button */
 #theme-ambient {
     position: relative;
     background-image: url('button-icons/ambient.png');
@@ -97,7 +105,11 @@
     transition: var(--transition);
 }
 
-.theme-button span{
+#theme-ambient:hover {
+    opacity: 0.9;
+}
+
+.theme-buttons span{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,10 +117,6 @@
     font-size: 1rem;
     font-weight: bold;
     z-index: 1; /* Ensures text is above the background */
-}
-
-.theme-button:hover {
-    opacity: 0.9; /* Slight hover effect */
 }
 
 * {
