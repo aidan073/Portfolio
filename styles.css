@@ -10,35 +10,32 @@
 
 /* Light Theme Variables */
 .light-theme {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
+    --primary-color: #58a6de;
+    --secondary-color: #34495e;
     --text-color: #333;
-    --bg-color: #f8f9fa;
-    --card-bg: #fff;
+    --bg-color: #c0c0c0;
+    --card-bg: #cecece;
     --border-color: #e1e1e1;
-    --transition: all 0.3s ease;
 }
 
 /* Dark Theme Variables */
 .dark-theme {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --text-color: #333;
-    --bg-color: #f8f9fa;
-    --card-bg: #fff;
-    --border-color: #e1e1e1;
-    --transition: all 0.3s ease;
+    --primary-color: #58a6de;
+    --secondary-color: #34495e;
+    --text-color: #f8f9fa;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --border-color: #333;
 }
 
 /* Ambient Theme Variables */
 .ambient-theme {
     --primary-color: #296447;
     --secondary-color: #6f837b;
-    --text-color: #cccccc;
-    --bg-color: #f8f9fa;
-    --card-bg: #fff;
-    --border-color: #e1e1e1;
-    --transition: all 0.3s ease;
+    --text-color: #f8f9fa;
+    --bg-color: #1d2b24;
+    --card-bg: #395245;
+    --border-color: #333;
 }
 
 /* Light-theme button */
