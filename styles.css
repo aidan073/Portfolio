@@ -19,19 +19,41 @@
     --transition: all 0.3s ease;
 }
 
+/* Dark Theme Variables */
+.dark-theme {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --text-color: #333;
+    --bg-color: #f8f9fa;
+    --card-bg: #fff;
+    --border-color: #e1e1e1;
+    --transition: all 0.3s ease;
+}
+
+/* Ambient Theme Variables */
+.ambient-theme {
+    --primary-color: #296447;
+    --secondary-color: #6f837b;
+    --text-color: #cccccc;
+    --bg-color: #f8f9fa;
+    --card-bg: #fff;
+    --border-color: #e1e1e1;
+    --transition: all 0.3s ease;
+}
+
 /* light-theme button */
 #theme-light {
     position: relative;
-    background-image: url('path-to-your-image.jpg');
-    background-size: cover; /* Ensures the image covers the button */
-    background-position: center; /* Centers the image */
+    background-image: url('button-icons/light.png');
+    background-size: cover;
+    background-position: center;
     color: white;
     border: none;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 0;
+    border-radius: 20px;
     cursor: pointer;
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     overflow: hidden;
     transition: var(--transition);
@@ -41,13 +63,13 @@
 /* dark-theme button */
 #theme-dark {
     position: relative;
-    background-image: url('path-to-your-image.jpg');
+    background-image: url('button-icons/dark.png');
     background-size: cover;
     background-position: center;
     color: white;
     border: none;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 0;
+    border-radius: 20px;
     cursor: pointer;
     width: 100px;
     height: 100px;
@@ -60,16 +82,16 @@
 /* ambient-theme button */
 #theme-ambient {
     position: relative;
-    background-image: url('ambient.png');
+    background-image: url('button-icons/ambient.png');
     background-size: cover;
     background-position: center;
     color: white;
     border: none;
     padding: 0;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     overflow: hidden;
     transition: var(--transition);
